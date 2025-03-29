@@ -1,0 +1,10 @@
+file_format: "1"
+id: palmslave
+naid: palmslave
+type: shield
+features:
+  - keys
+  - studio
+siblings:
+  - palmslave_left
+  - palmslave_right

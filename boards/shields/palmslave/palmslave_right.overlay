@@ -1,0 +1,15 @@
+#include "palmslave.dtsi"
+
+&kscan0 {
+    col-gpios
+        = <&bmp 11 GPIO_ACTIVE_HIGH>
+        , <&bmp 10 GPIO_ACTIVE_HIGH>
+        , <&bmp 9 GPIO_ACTIVE_HIGH>
+        , <&bmp 8 GPIO_ACTIVE_HIGH>
+        , <&bmp 7 GPIO_ACTIVE_HIGH>
+        ;
+};
+
+&default_transform {
+    col-offset = <5>;
+};
