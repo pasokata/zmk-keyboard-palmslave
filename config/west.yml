@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: sekigon-gonnoc
       url-base: https://github.com/sekigon-gonnoc
+    - name: pasokata
+      url-base: https://github.com/pasokata
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -12,5 +14,12 @@ manifest:
     - name: zmk-component-ble-micro-pro
       remote: sekigon-gonnoc
       revision: main
+    - name: zmk-feature-cdc-acm-bootloader-trigger
+      remote: sekigon-gonnoc
+      revision: main
+    - name: zmk-feature-non-lipo-battery-management
+      remote: sekigon-gonnoc
+    - name: zmk-behavior-swapper
+      remote: pasokata
   self:
     path: config
