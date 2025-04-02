@@ -38,9 +38,5 @@
         kscan = <&kscan0>;
         transform = <&default_transform>;
     };
-
-    bootloader_trigger: bootloader_trigger {
-        compatible = "zmk,cdc-acm-bootloader-trigger";
-    };
 };
 

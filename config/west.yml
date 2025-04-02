@@ -14,12 +14,8 @@ manifest:
     - name: zmk-component-ble-micro-pro
       remote: sekigon-gonnoc
       revision: main
-    - name: zmk-feature-cdc-acm-bootloader-trigger
-      remote: sekigon-gonnoc
-      revision: main
-    - name: zmk-feature-non-lipo-battery-management
-      remote: sekigon-gonnoc
     - name: zmk-behavior-swapper
       remote: pasokata
+      revision: main
   self:
     path: config
